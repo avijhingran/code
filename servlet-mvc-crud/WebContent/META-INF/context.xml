@@ -1,0 +1,8 @@
+<Context>
+	<Resource name="jdbc/servlet-mvc-crud" 
+  			  auth="Container" type="javax.sql.DataSource"
+              maxActive="20" maxIdle="5" maxWait="10000"
+              username="c##" password="avi" 
+              driverClassName="oracle.jdbc.driver.OracleDriver"
+              url="jdbc:oracle:thin:@localhost:1521:orcl"/>
+</Context>
